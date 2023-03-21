@@ -4,22 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Dae</title>
 </head>
 <body>
-    <header></header>
+    <ul id="slide-out" class="sidenav">
+        <li><a href="#home" class="sidenav-close">Shop</a></li>
+        <li><a href="#skills" class="sidenav-close">The Edit</a></li>
+        <li><a href="#about" class="sidenav-close">Our Stiry</a></li>
+        <li><a href="#pricing" class="sidenav-close">Reviews</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!" class="sidenav-close">Close</a></li>
+    </ul>
 
-    <section class="">
+    <header id="header">
+        <div class="container">
+            <div class="header__flex">
+                <div class="header__flex-item-0 sidenav-trigger" data-target="slide-out">
+                    <div class="header__flex-item-0-line"></div>
+                    <div class="header__flex-item-0-line"></div>
+                    <div class="header__flex-item-0-line"></div>
+                </div>
+                <div class="header__flex-item-1">
+                    <a href="#" class="header__flex-item-nav">Shop</a>
+                    <a href="#" class="header__flex-item-nav">The Edit</a>
+                    <a href="#" class="header__flex-item-nav">Our Story</a>
+                    <a href="#" class="header__flex-item-nav">Reviews</a>
+                </div>
+                <div class="header__flex-item">
+                    <a href="#header" class="header__flex-item-a"><img src="img/logo.png" alt="header" class="header__flex-item-img"></a>
+                </div>
+                <div class="header__flex-item-3">
+                    <a href="#" class="header__flex-item-but">Account</a>
+                    <img src="img/bag.png" alt="icon-bag" class="header__flex-item3-img">
+                    <a href="#" class="header__flex-item-but">0</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="p-1" id="p-1">
+        <div class="container">
+                <button class="p-1__button">Shop now</button> 
+        </div>
+    </section>
+
+    <section class="p-2" id="p-2">
+        <div class="container">
+            <h3 class="p-2_h3">Ready to get drenched?</h3>
+            <h2 class="p-2_h2">Meet Monsoon Moisture Mask</h2>
+            <a href="#" class="p-2_a">Show Now</a>
+        </div>
+    </section>
+
+    <section class="p-3" id="p-3">
+        <div class="container">
+            <h2 class="p-3__h2">Pick A Pretty Bottle</h2>
+            <div class="carousel">
+                <a class="carousel-item" href="#one!">
+                        <img src="img/p-3-img1.png" alt="" class="p-3__carusel-item-img">
+                </a>
+                <a class="carousel-item" href="#two!">
+                        <img src="img/p-3-img2.png" alt="" class="p-3__carusel-item-img">
+                </a>
+                <a class="carousel-item" href="#one!">
+                        <img src="img/p-3-img3.png" alt="" class="p-3__carusel-item-img">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-4" id="p-4">
         <div class="container">
             
         </div>
     </section>
 
-    <footer></footer>
+    <section class="p-5" id="p-5">
+        <div class="container">
+            
+        </div>
+    </section>
 
+    <footer id="footer">
+        <div class="container">
+            
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

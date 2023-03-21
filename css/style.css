@@ -9,8 +9,9 @@ html {
     padding: 0;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+    height: 3000px;
 }
 /* Variables */
 :root {
@@ -20,8 +21,225 @@ body {
 }
 /* Overall Width */
 .container {
-    max-width: 940px;
+    max-width: 1300px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
 }
 /* Header */
+header {
+    background-color: #F6F4EC;
+    position: sticky;
+}
+.header__flex-item-0 {
+    display: none;
+}
+.header__flex-item-0-line {
+    width: 40px;
+    height: 3px;
+    margin-bottom: 6px;
+    background-color: #B4604D;
+}
+.header__flex-item-0-line:last-child {
+margin-bottom: 0;
+}
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+.header__flex-item-1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    width: 100%;
+}
+.header__flex-item-nav {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #B4604D;
+    text-decoration: none;
+}
+.sidenav li>a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #B4604D;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.header__flex-item-a {
+    margin-right: 230px;
+}
+.header__flex-item-img {
+    width: 120px;
+    height: 50px;
+}
+.header__flex-item-3 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100px;
+    width: 100%;
+}
+.header__flex-item-but {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #B45F4D;
+    text-decoration: none;
+}
+.header__flex-item3-img {
+    width: 19px;
+    height: 21px;
+}
+
+@media screen and (max-width: 980px) {
+    .header__flex-item-0 {
+        display: block;
+    }
+    .header__flex-item-a {
+        margin: 0;
+    }
+    .header__flex-item-1 {
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header__flex-item-img {
+        width: 87px;
+        height: 35px;
+        margin-left: 50px;
+    }
+}
+/* p-1 */
+.p-1 {
+    background-image: url(../img/p-1-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 345px;
+    padding-top: 250px;
+    background-attachment: fixed;
+    background-position: center;
+}
+.p-1__button {
+    width: 128px;
+    height: 48px;
+    background-color: #B45F4D;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+/* p-2 */
+.p-2 {
+    background-color: #A9AE8D;
+    padding: 69px 0;
+}
+.p-2_h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #F6F4EC;
+    margin: 0;
+}
+.p-2_h2 {
+    margin: 0;
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 64px;
+    color: #F6F4EC;
+}
+.p-2_a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #F6F4EC;
+}
+
+
+@media screen and (max-width: 480px) {
+    .p-2_h2 {
+        line-height: 40px;
+    }
+}
+/* p-3 */
+.p-3 {
+    background-color: #F6F4EC;
+    height: 800px;
+}
+.p-3__h2 {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 39px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #B45F4D;
+    padding: 39px 0 44px 0;
+}
+.carousel-item {
+}
+.p-3__carusel-item {
+}
+.carousel .carousel-item>img {
+    width: 380px;
+    height: 643px;
+    padding-bottom: 10px;
+}
+.p-3__carusel-item-h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #B45F4D;
+    padding-top: 7px;
+}
+.p-3__carusel-item-h3 {
+    padding-bottom: 86px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.carousel {
+    position: relative;
+    top: -413px;
+    left: -85px;
+    height: 1040px;
+    perspective: 1071px;
+}
+
+@media screen and (max-width: 1020px) {
+    
+}
+/* p-4 */
+
+
+@media screen and (max-width: 1020px) {
+    
+}
+/* p-5 */
+
+
+@media screen and (max-width: 1020px) {
+    
+}
+/* p-6 */
+
+
+@media screen and (max-width: 1020px) {
+    
+}
+/* footer */
+
+
+@media screen and (max-width: 1020px) {
+    
+}
