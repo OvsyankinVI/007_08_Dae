@@ -1,0 +1,27 @@
+/* Normalize */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+/* Variables */
+:root {
+    --color-blue: #00A4E5;
+    --color-grey: #48555B;
+    --color-white: #fff;
+}
+/* Overall Width */
+.container {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Header */
