@@ -1,11 +1,8 @@
-/* document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems);
-    var modal = document.querySelectorAll('.modal');
-    var instances_modal = M.Modal.init(modal);
-  }); */
-
-  document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
+    let elems = document.querySelectorAll('.sidenav');
+    let instances = M.Sidenav.init(elems);
+    let modal = document.querySelectorAll('.modal');
+    let instances_modal = M.Modal.init(modal);
     let car = document.querySelectorAll('.carousel');
-    let instances = M.Carousel.init(car);
+    let instances_car = M.Carousel.init(car);
   });
