@@ -437,6 +437,25 @@ margin-bottom: 0;
     }
 }
 /* footer */
+footer {
+    background-color: #F6F4EC;
+    padding: 50px;
+}
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__flex-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #C17C6C;
+}
+.footer__flex-img {
+    width: 30px;
+    height: 30px;
+}
 
 
 @media screen and (max-width: 1020px) {
